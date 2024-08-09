@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <!--우리의 주된 언어가 무엇인지 알려주는 것-->
+  <head>
+    <!--head에는 페이지 안에 보여지는 문자들이 있으면 안 됨-->
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="img/piratesMark.jpg"
+    />
+    <title>Home - My First Website</title>
+    <meta charset="utf-8" />
+    <meta name="dsecription" content="This is my website" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="center">Sound of HeartBeat</h1>
+    </header>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <main>
+      <div class="center">
+        <div class="mainImg">
+          <img class="round" src="img\piratesMark.jpg" />
+        </div>
+      </div>
+      <div class="center">
+        <span class="textbox"> Monkey <mark>D.</mark> Luffy </span>
+      </div>
+
+      <div>
+        <form class="center">
+          <div class="btn">
+            <label for="Profile">Profile Photo</label>
+            <input id="Profile" type="file" />
+          </div>
+
+          <div class="btn">
+            <label for="First_Name">First Name</label>
+            <input id="First_Name" placeholder="Name" type="text" />
+          </div>
+
+          <div class="btn">
+            <label for="Last_Name">Last Name</label>
+            <input
+              id="Last_Name"
+              required
+              placeholder="Last Name"
+              type="text"
+            />
+          </div>
+
+          <div class="btn">
+            <label for="User_Name">User Name</label>
+            <input
+              id="User_Name"
+              required
+              placeholder="User Name"
+              type="text"
+            />
+          </div>
+
+          <div class="btn">
+            <label for="Password">Password</label>
+            <input
+              id="Password"
+              required
+              placeholder="Password"
+              minlength="7"
+              type="password"
+            />
+          </div>
+
+          <div class="btn">
+            <input type="submit" value="Create Account" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="center">
+      <a
+        class="small-btn"
+        href="https://one-piece.com/news/index.html"
+        target="_blank"
+        >GO to Official Site</a
+      >
+      <audio
+        controls
+        autoplay
+        src="audio\03.꽃이 피는 첫걸음 극장판 홈스위트 홈 엔딩(그림자 밟기-nano.RIPE).mp3"
+      ></audio>
+    </footer>
+  </body>
+</html>
